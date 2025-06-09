@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My portfolio</title>
+    <title>SuGyeong Lee's Portfolio</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/font.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -19,7 +19,6 @@
     <script src="https://kit.fontawesome.com/a6551a6480.js" crossorigin="anonymous"></script>
 
     <script src="./app.js"></script>
-    <script src="./script/common.js"></script>
     <script src="./script/main.js"></script>
 </head>
 
@@ -38,7 +37,7 @@
     <!-- // header -->
 
     <!-- hero -->
-    <section class="hero">
+    <section class="hero" class="section">
         <video autoplay muted loop playsinline class="bg_video">
             <source src="./video/my_ai_video.mp4" type="video/mp4" />
         </video>
@@ -52,7 +51,7 @@
     <!-- //hero -->
 
     <!-- contents -->
-    <section class="contents">
+    <section class="contents" class="section">
         <div class="contents_i">
             <h2>
                 Project
@@ -94,7 +93,7 @@
 
 
             <!-- popup -->
-            <div class="visual-thumbox" id="2depth">
+            <div class="visual-thumbox">
                 <div class="back">
                     <a href="#"><img src="./img/backicon24.png" alt="backicon"></a>
                 </div>
@@ -185,7 +184,7 @@
     <!-- //contents -->
 
     <!-- aboutme -->
-    <section class="aboutme">
+    <section class="aboutme" class="section">
         <div class="aboutme_i">
             <h2>About me</h2>
             <div class="aboutbox" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
@@ -227,11 +226,9 @@
                 </div>
             </div>
         </div>
-    </section>
-    <!-- //aboutme -->
 
-    <!-- toolkit -->
-     <section class="toolkit">
+        <!-- toolkit -->
+     <div class="toolkit">
         <div class="toolkit_i">
             <h2>My Toolkit</h2>
             <div class="toolbox">
@@ -272,24 +269,30 @@
                 I’m interested in integrating AI into my creative process and plan to continue learning and experimenting with it
             </p>     
         </div>
-     </section>
+    </div>
     <!-- //toolkit -->
+    </section>
+    <!-- //aboutme -->
+
+    
 
     <!-- contact -->
-     <footer class="contact" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+     <footer class="section" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+        <section class="contact">
         <div class="contact_i">
             <h2 class="slide-in-text" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
                 Thanks for visiting! 🌷 Let’s stay in touch.
             </h2>
             <ul data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
-                <li class="copy-item">@ou.xett  <i class="fa-brands fa-instagram"></i></li>
-                <li class="copy-item">2sugyeong01@gmail.com <i class="fa-regular fa-envelope"></i></li>
-                <li class="copy-item">OpenKakaotalk <i class="fa-regular fa-comment"></i></li>
+                <li><a href="https://www.instagram.com/ou.xett/profilecard/?igsh=MWVtOTRpaHNuZWE0aA==">@ou.xett  <i class="fa-brands fa-instagram"></i></a></li>
+                <li>2sugyeong01@gmail.com <i class="fa-regular fa-envelope"></i></li>
+                <li><a href="https://open.kakao.com/o/sCYSmXAh">OpenKakaotalk <i class="fa-regular fa-comment"></i></a></li>
             </ul>
             <div class="copyright">
                 <p>Designed & coded with ❤️ by SuGyeong Lee © 2025</p>
             </div>
         </div>
+    </section>
     </footer>
     <!-- //contact -->
 </body>
