@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./colorbox.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./script/jquery.colorbox-min.js"></script>
+    <script src="./script/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/a6551a6480.js" crossorigin="anonymous"></script>
+
+    <script src="./app.js"></script>
+    <script src="./script/common.js"></script>
+    <script src="./script/main.js"></script>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <div class="menub">
+            <ul>
+                <li>home</li>
+                <li>project</li>
+                <li>about me</li>
+                <li>contact</li>
+            </ul>
+        </div>
+    </header>
+    <!-- // header -->
+
+    <!-- hero -->
+    <section class="hero">
+        <video autoplay muted loop playsinline class="bg_video">
+            <source src="./video/my_ai_video.mp4" type="video/mp4" />
+        </video>
+        <div class="intro_text">
+            <h1>Detail-obsessed, <br>
+                endlessly curious
+            </h1>
+            <p>Visual storyteller & design enthusiast</p>
+        </div>
+    </section>
+    <!-- //hero -->
+
+    <!-- contents -->
+    <section class="contents">
+        <div class="contents_i">
+            <h2>
+                Project
+            </h2>
+
+            <div data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="allbox">
+                <div class="box">
+                    <a href="#">
+                        <div class="box_i" id="visualthumb">
+                            <figure class="circle_imgbox">
+                                <img src="./img/thumimg/posterthumimg.png" alt="posterthumimg">
+                            </figure>
+                            <h4>VISUAL</h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="#">
+                        <div class="box_i" id="uxuithumb">
+                            <figure class="circle_imgbox">
+                                <img src="./img/thumimg/uxui.png" alt="uxuithumimg">
+                            </figure>
+                            <h4>UX/UI</h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="box">
+                    <a href="#">
+                        <div class="box_i" id="webthumb">
+                            <figure class="circle_imgbox">
+                                <img src="./img/thumimg/balenciagathum.png" alt="webthumimg">
+                            </figure>
+                            <h4>WEB</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+
+            <!-- popup -->
+            <div class="visual-thumbox" id="2depth">
+                <div class="back">
+                    <a href="#"><img src="./img/backicon24.png" alt="backicon"></a>
+                </div>
+                <div class="allbox">
+                    <div class="box">
+                        <a href="#">
+                            <div class="box_i" id="posterthumb">
+                                <figure class="circle_imgbox">
+                                    <img src="./img/thumimg/posterthumimg.png" alt="posterthumimg">
+                                </figure>
+                                <h4>POSTER</h4>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="#">
+                            <div class="box_i" id="brandingthumb">
+                                <figure class="circle_imgbox">
+                                    <img src="./img/thumimg/brandingthumb.png" alt="brandingthumimg">
+                                </figure>
+                                <h4>BRANDING</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="web-thumbox" class="2depth">
+                <div class="back2">
+                    <a href="#"><img src="./img/backicon24.png" alt="backicon"></a>
+                </div>
+                <div class="allbox">
+                    <div class="box" id="airbusanthumb">
+                        <a href="#">
+                             <div class="box_i" id="airbusanthumb"> 
+                                <figure class="circle_imgbox">
+                                    <img src="./img/thumimg/aibusanthum.png" alt="airbusanthumimg">
+                                </figure>
+                                <div class="project_pbox">
+                                <h4 id="project-name">Airbusan Airline</h4>
+                                <ul id="project-link">
+                                    <li id="airbusanpro"><a href="#"><i class="fa-regular fa-images"></i></a></li>
+                                    <li><a href="https://sugyeong01.github.io/airbusan/"><i class="fa-solid fa-link"></i></a></li>
+                                </ul>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="box">
+                        <a href="#">
+                            <div class="box_i" id="balenciagathumb">
+                                <figure class="circle_imgbox">
+                                    <img src="./img/thumimg/balenciagathum.png" alt="balenciagathumimg">
+                                </figure>
+                                <div class="project_pbox">
+                                <h4 id="project-name">Balenciaga</h4>
+                                <ul id="project-link">
+                                    <li id="balenciagapro"><a href="#"><i class="fa-regular fa-images"></i></a></li>
+                                    <li><a href="https://sugyeong01.github.io/balenciaga/"><i class="fa-solid fa-link"></i></a></li>
+                                </ul>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio" id="poster">
+                <img src="./img/posterfinal.png" alt="posterproposal">
+            </div>
+            <div class="portfolio" id="branding">
+                <img src="./img/brandingfinal.png" alt="bradingproposal">
+            </div>
+            <div class="portfolio" id="uxui">
+                <img src="./img/h&m_proposal.png" alt="h&mproposal">
+            </div>
+            <div class="portfolio" id="airbusan">
+                <img src="./img/airbusan_proposal.png" alt="airbusanproposal">
+            </div>
+            <div class="portfolio" id="balenciaga">
+                <img src="./img/balenciaga_proposal.png" alt="balenciagaproposal">
+            </div>
+            <div class="modal"></div>
+
+            <!-- //popup -->
+        </div>
+    </section>
+    <!-- //contents -->
+
+    <!-- aboutme -->
+    <section class="aboutme">
+        <div class="aboutme_i">
+            <h2>About me</h2>
+            <div class="aboutbox" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="./img/me.png" alt="me">
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>LEE SUGYEONG</h3>
+                            <p>2001.11.16</p>
+                            <p>Based in Korea</p>
+                            <p>2sugyeong01@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <ul><span>Education</span>
+                        <li>German Language & Literature, Yeungnam University (Graduated: Feb 2025)</li>
+                        <li>UX/UI Web Design Course, SBS Computer Academy (Oct 2024 - Jun 2025)</li>
+                        <li>Global Talent Development Program (Dec 2024 - Feb 2025)</li>
+                        <li>Visual Design Studies, KG IT Bank (Jan 2025 - Present)</li>
+                    </ul>
+                    <ul><span>Certifications</span>
+                        <li>German Language Certificate B1 (Reading, Writing, Speaking - Expected Jul 2025)</li>
+                        <li>TOEIC Speaking IH (Intermediate High) (Jul 2024)</li>
+                        <li>Adobe Certified Professional in Photoshop & Illustrator (Dec 2024)</li>
+                    </ul>
+                    <ul><span>Award</span>
+                        <li>Encouragement Award, Emblem & Slogan Design Contest
+                            - Celebrating the 77th Anniversary of Yeungnam University</li>
+                    </ul>
+                    <ul><span>Experiences</span>
+                        <li>The Plain Jewelry Shop (Apr - Oct 2022)</li>
+                        <li>Adidas Offline Store (Jan - Feb 2023)</li>
+                        <li>A Twosome Place Café - Store Manager (Mar 2024 - May 2025)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //aboutme -->
+
+    <!-- toolkit -->
+     <section class="toolkit">
+        <div class="toolkit_i">
+            <h2>My Toolkit</h2>
+            <div class="toolbox">
+                <div class="box_i">
+                    <figure>
+                    <img src="./img/toolkit/html.png" alt="html">
+                </figure>
+                    <p>HTML5</p>
+                </div>
+                <div class="box_i">
+                    <figure>
+                    <img src="./img/toolkit/text.png" alt="css">
+                </figure>
+                    <p>CSS3</p>
+                </div>
+                <div class="box_i">
+                    <figure>
+                    <img src="./img/toolkit/figma.png" alt="figma">
+                </figure>
+                    <p>Figma</p>
+                </div>
+                <div class="box_i">
+                    <figure>
+                    <img src="./img/toolkit/photoshop.png" alt="Photoshop">
+                </figure>
+                    <p>Photoshop</p>
+                </div>
+                <div class="box_i">
+                    <figure>
+                    <img src="./img/toolkit/illustrator.png" alt="illustrator">
+                </figure>
+                    <p>Illustrator</p>
+                </div>
+            </div>
+            <p>
+                I mainly use HTML, CSS, Figma, Photoshop, and Illustrator for my design work. <br>
+                While I’m still exploring advanced tools, I’m always curious about new technologies—especially AI. <br>
+                I’m interested in integrating AI into my creative process and plan to continue learning and experimenting with it
+            </p>     
+        </div>
+     </section>
+    <!-- //toolkit -->
+
+    <!-- contact -->
+     <footer class="contact" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+        <div class="contact_i">
+            <h2 class="slide-in-text" data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+                Thanks for visiting! 🌷 Let’s stay in touch.
+            </h2>
+            <ul data-aos="fade-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+                <li class="copy-item">@ou.xett  <i class="fa-brands fa-instagram"></i></li>
+                <li class="copy-item">2sugyeong01@gmail.com <i class="fa-regular fa-envelope"></i></li>
+                <li class="copy-item">OpenKakaotalk <i class="fa-regular fa-comment"></i></li>
+            </ul>
+            <div class="copyright">
+                <p>Designed & coded with ❤️ by SuGyeong Lee © 2025</p>
+            </div>
+        </div>
+    </footer>
+    <!-- //contact -->
+</body>
+
+</html>
