@@ -267,7 +267,13 @@ header {
 
 .project_pbox {
     width: 100%;
-    overflow: hidden;
+}
+.project_pbox h4{
+    font-family: 'ClashDisplay';
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
 }
 
 .web-thumbox .allbox_2 .project_pbox ul {
