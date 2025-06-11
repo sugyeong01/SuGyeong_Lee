@@ -1,42 +1,3 @@
-/* mainfont */
-@font-face {
-    font-family: 'bogimber';
-    src: url('../font/Bogimber.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-  }
-/* //mainfont */
-
-/* subfont */
-  @font-face {
-    font-family: 'stardom';
-    src: url('../font/Stardom-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
-  /* //subfont */
-  
-/* dahlia */
-  @font-face {
-    font-family: 'dahlia';
-    src: url('../font/dahlia-medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: 'dahlia';
-    src: url('../font/dahlia-bold.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: 'dahlia';
-    src: url('../font/dahlia-regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-  }
-/* //dahlia */
-
   /* satoshi */
   @font-face {
     font-family: 'Satoshi';
@@ -58,6 +19,7 @@
   }
 /* //satoshi */
 
+/* ClashDisplay */
 @font-face {
   font-family: 'ClashDisplay';
   src: url('../font/ClashDisplay-Semibold.woff') format('woff');
@@ -76,7 +38,7 @@
   font-weight: 400;
   font-style: normal;
 }
-
+/* //ClashDisplay */
 
 @font-face {
   font-family: 'Boska';
@@ -96,7 +58,3 @@
   font-weight: 400;
   font-style: normal;
 }
-
-  @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-
-  @import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap');

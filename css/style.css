@@ -91,7 +91,7 @@ header {
     position: relative;
     z-index: 2;
     /* font-size: 64px; */
-    font-size: calc(54px + (10 * ((100vw - 380px) / (1920 - 380))));
+    font-size: calc(44px + (20 * ((100vw - 380px) / (1920 - 380))));
     color: #ffffffef;
     padding: 0 1rem;
     text-align: center;
@@ -210,6 +210,7 @@ header {
 .web-thumbox{
     width: 100%;
     height: 100%;
+    overflow-y: scroll;
     background: linear-gradient(to bottom, #00010d 35%, #FFA1E1 100%);
     position: fixed;
     top: 0;
@@ -222,10 +223,10 @@ header {
     max-width: 1400px;
     height: 600px;
     margin: auto;
-    position: absolute;
+    /* position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -503,7 +504,7 @@ header {
 
 .toolkit_i h2 {
     font-family: 'ClashDisplay';
-    font-size: calc(64px + (28 * ((100vw - 380px) / (1920 - 380))));
+    font-size: calc(54px + (38 * ((100vw - 380px) / (1920 - 380))));
     font-weight: 700;
     color: #fff;
     display: flex;
@@ -584,7 +585,7 @@ header {
     top: 0;
     opacity: 0;
     color: #fff;
-    font-size: calc(72px + (48 * ((100vw - 380px) / (1920 - 380))));
+    font-size: calc(56px + (64 * ((100vw - 380px) / (1920 - 380))));
     transition: all 0.8s ease-out;
 }
 .contact ul{
@@ -757,11 +758,12 @@ header {
     .intro_text p{
         font-size: 16px;
     }
-    .visual-thumbox,
+    /* .visual-thumbox,
     .web-thumbox{
-        overflow: hidden;
+      overflow: hidden;
       overflow-y: auto;
-    }
+      height: auto;
+    } */
     /* .contents_i h2,
     .aboutme_i h2,
     .contact_i h2,
