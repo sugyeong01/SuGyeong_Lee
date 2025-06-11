@@ -561,7 +561,6 @@ header {
     overflow: hidden;
     padding: 0 16px;
     padding-top: 120px;
-    /* margin-bottom: 200px; */
     background-color: #000;
     position: relative;
 }
@@ -746,7 +745,7 @@ header {
 
 @media screen and (max-width: 380px) {
     header .menub{
-        max-width: 320px;
+        width: 320px;
     }
 
     .intro_text p{
