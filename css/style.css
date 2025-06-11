@@ -20,7 +20,7 @@ header {
 }
 
 .menub {
-    width: 600px;
+    max-width: 600px;
     height: 60px;
     border-radius: 50px;
     backdrop-filter: blur(16px);
@@ -717,7 +717,7 @@ header {
 
 @media screen and (max-width: 767px) {
     header .menub{
-        width: 500px;
+        max-width: 500px;
     }
     header .ham{
         display: block;
@@ -733,7 +733,7 @@ header {
         font-size: 56px;
     }
     header .menub{
-        width: 400px;
+        max-width: 400px;
     }
 
     .intro_text p{
@@ -746,7 +746,7 @@ header {
 
 @media screen and (max-width: 380px) {
     header .menub{
-        width: 320px;
+        max-width: 320px;
     }
 
     .intro_text p{
